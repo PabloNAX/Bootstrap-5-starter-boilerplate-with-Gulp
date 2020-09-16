@@ -25,8 +25,11 @@ To install project dependencies, enter the commands at the command line:
 Normal mode: Enter `gulp` on the command line.
 Custom build: Enter the required task at the command line. For example, to build CSS, you must enter the command `css: build`. A list of all available tasks can be viewed in the gulpfile.js file.
 
+___
 
-## Tool List
+## More Details
+
+### Tool List
 The environment for developing a frontend project (site) is built on the basis of the following tools:
 
 - Node.js (the environment in which the environment will run);
@@ -34,7 +37,7 @@ The environment for developing a frontend project (site) is built on the basis o
 - Popover, Bootstrap 5 (packages that will be used to build css and js parts of the site);
 - Gulp and its plugins (will be used to build the project and perform other web tasks).
  
-## Gulp project file structure
+### Gulp project file structure
 The project file structure can be organized in different ways. This may depend both on the preferences of a particular developer and on the project for which it is being created.
 
 In this article, we will adhere to the following structure:
@@ -57,7 +60,7 @@ The "index.html" file is the main page of the project being created. Besides "in
 
 The "template" directory is intended for placing fragments of HTML pages into it. For example, in this directory you can create files "head.html" and "footer.html", and import their contents (using the syntax // = path_to_file) into several pages at once. This will make it easier to create and edit html pages, because separate parts of the pages will already be in separate files.
 
-## Import Bootstrap 5 sources to the project and configuring them
+### Import Bootstrap 5 sources to the project and configuring them
 
 There are different ways to connect the Bootstrap 5 framework to a project, as well as options for working with it.
 
